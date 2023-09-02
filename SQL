@@ -63,4 +63,4 @@ SELECT * FROM weapon WHERE weapon=200
 -- ("Аня", "Стаматолог" , 10600)
 -- ("ААзи", "Уролог" , 10500)
 
-SELECT * FROM doctors WHERE "Хирург"
+SELECT * FROM doctors WHERE post = "Хирург";
